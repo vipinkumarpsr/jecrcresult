@@ -1,0 +1,1 @@
+$con=mysqli_init(); mysqli_ssl_set($con, NULL, NULL, {ca-cert filename}, NULL, NULL); mysqli_real_connect($con, "jecrcresult.mysql.database.azure.com", "vipinkumarpsr@jecrcresult", {your_password}, {your_database}, 3306);
